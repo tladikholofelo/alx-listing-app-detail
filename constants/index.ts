@@ -3,6 +3,32 @@ import { PropertyProps } from "@/interfaces/index";  // Correct import path
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
   {
+    name: "Sample Property",
+    rating: 4.5,
+    address: {
+      city: "New York",
+      country: "USA",
+    },
+    description: "A beautiful property with amazing amenities.",
+    category: ["Wifi", "Parking", "Kitchen", "Air Conditioning"],
+    price: 150,
+    image: "/path/to/image.jpg",
+    reviews: [
+      {
+        name: "John Doe",
+        avatar: "/path/to/avatar1.jpg",
+        rating: 5,
+        comment: "Great place! Highly recommend.",
+      },
+      {
+        name: "Jane Smith",
+        avatar: "/path/to/avatar2.jpg",
+        rating: 4,
+        comment: "Very comfortable and clean.",
+      },
+    ],
+  },
+  {
     name: "Villa Ocean Breeze",
     address: {
       state: "Seminyak",
