@@ -7,6 +7,7 @@ export interface PropertyProps {
     country: string;
   };
   rating: number;
+  description: string;
   category: string[];
   price: number;
   offers: {
@@ -16,4 +17,10 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
+  reviews: {
+    name: string;
+    avatar: string;
+    rating: number;
+    comment: string;
+  }[];
 }
